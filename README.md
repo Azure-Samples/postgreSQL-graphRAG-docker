@@ -18,7 +18,7 @@ Two volumes are created to persist postgres data and app related data.
 </p>
 
 ## What's new:
-1> New graphRAG version 3.0.5. It's an API‑driven graph construction step rather than a tightly coupled end‑to‑end pipeline. The updated configuration model and execution flow make it easier to materialize extracted entities and relationships into PostgreSQL with Apache AGE, while allowing agents to operate over a persistent graph instead of recomputing relationships at query time. <br>
+1> New graphRAG version 3.0.5. GraphRAG 3.0.5 stabilizes the 3.x configuration‑driven, API‑based architecture and improves indexing reliability, making graph construction more predictable and easier to integrate into real workflows. <br>
 
 2> Postgres:16-bookworm. Its' a fully supported long‑term release built on Debian 12, providing a modern and stable foundation for Apache AGE and graph persistence. <br>
 
